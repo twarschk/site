@@ -1,0 +1,103 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+nav a:hover {
+    background-color: #555;
+}
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f0f0f0;
+}
+.projects {
+    max-width: 900px;
+    margin: 20px auto;
+}
+.project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.project img {
+    float: left;
+    margin-right: 20px;
+    max-width: 200px;
+    height: auto;
+}
+.project-content {
+    float: left;
+}
+.project h3 {
+    margin-top: 0;
+}
+.about-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.profile-image {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.projects-page { /* Style for the projects page */
+    max-width: 900px;
+    margin: 20px auto;
+}
+.project-page {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.chart {
+    max-width: 600px;
+    margin: 20px auto;
+    display: block; /* Make images block elements for centering */
+}
+
+
+@media (max-width: 768px) { /* Responsive adjustments */
+  .project img {
+        float: none;
+        margin: 0 auto 20px;
+        display: block;
+        max-width: 100%;
+    }
+    .project-content {
+        float: none;
+    }
+    .profile-image {
+        float: none;
+        margin: 0 auto 20px;
+        display: block;
+    }
+}
