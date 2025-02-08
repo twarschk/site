@@ -65,6 +65,7 @@ nav a:hover {
     width: 150px;
     height: 150px;
     object-fit: cover;
+    object-position: top; /* Try to align the top of the image with the container */
 }
 .projects-page { /* Style for the projects page */
     max-width: 900px;
